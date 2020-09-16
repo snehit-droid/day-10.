@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+.cus-div{
+    width: 100%;
+    position: relative;
+}
+#skew1{
+    background-color: rgb(5, 5, 131);
+    background-size: cover;
+    background-position: center center;
+    z-index: 10;
+}
+#skew2{
+    background-color: rgb(199, 182, 182) ;
+    z-index: 9;
+}
+#skew3{
+    background-color: rgb(5, 5, 80) ;
+    z-index: 9;
+}
+#skew4{
+    background-color: peachpuff;
+    z-index: 9;
+}
+#skew5{
+    background-color: pink;
+    z-index: 9;
+}
+#skew6{
+    background-color: rgb(131, 131, 240);
+    z-index: 9;
+}
+#skew7{
+    background-color: blueviolet ;
+    z-index: 9;
+}
+#skew8{
+    background-color: violet ;
+    z-index: 9;
+}
+#skew9{
+    background-color: wheat ;
+    z-index: 9;
+}
+.cus-div:after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    content: '';
+}
+#skew1:after{
+    transform-origin: left top;
+    transform: skewY(-2deg);
+}
+#skew2:after{
+    transform-origin: left top;
+    transform: skewY(-2deg);
+}
+#skew3:after{
+    transform-origin: left top;
+    transform: skewY(-2deg);
+}
+#skew4:after{
+    transform-origin: left top;
+    transform: skewY(-2deg);
+}
+#skew5:after{
+    transform-origin: left top;
+    transform: skewY(-2deg);
+}
+#skew6:after{
+    transform-origin: left top;
+    transform: skewY(-2deg);
+}
+#skew7:after{
+    transform-origin: left top;
+    transform: skewY(-2deg);
+}
+#skew8:after{
+    transform-origin: left top;
+    transform: skewY(-2deg);
+}
+#skew9:after{
+    transform-origin: left top;
+    transform: skewY(-2deg);
+}
+.content{
+    font-weight: bold;
+    color: black;
+    text-align:center;
+    padding: 200px 50px;
+    overflow: hidden;
+    display: block;
+    height: auto;
+}
+.boundary{
+    border-left: solid 3px goldenrod;
+    border-right: solid 3px goldenrod;
+    margin: 30px;
+}
+b{
+    font-family: Sacramento;
+    font-size: 80px;
+}
